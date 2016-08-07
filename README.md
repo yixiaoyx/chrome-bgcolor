@@ -4,8 +4,8 @@ Chrome extension that changes bgcolor to a comfortable shade of palegreen: #C3E8
 Created by Yi Xiao.
 
 There are two versions:  
-One changes the general background and text fields to palegreen.  
-The other also overwrites all div colors. 
+chrome-bg-only: changes general backgrounds and text fields to palegreen.  
+chrome-bg-div: also overwrites all div colors. 
 
 If the first one has no effect over a certain webpage, try the one overwriting divs.  
 However be aware that a small number of webpages might lose some functionality when divs are altered.
