@@ -1,10 +1,9 @@
 # chrome-bgcolor
 
-Chrome extension that changes bgcolor to a comfortable shade of palegreen: #C3E8C8.
+Chrome extension that changes bgcolor to a comfortable shade of palegreen: #C3E8C8.  
 Created by Yi Xiao.
 
-There are two versions: 
-
+There are two versions:  
 One changes the general background and text fields to palegreen.  
 The other also overwrites all div colors. 
 
@@ -23,5 +22,5 @@ Or:
 Download the entire folder containing a **.css** and a **.json** file.   
 Go to **chrome://extensions/**.  
 Check the box for **Developer mode**.  
-Click **Load unpacked extension...**.
+Click **Load unpacked extension...**.  
 Locate the downloaded folder and click **Select**.
