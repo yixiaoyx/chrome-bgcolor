@@ -1,0 +1,9 @@
+{
+   "content_scripts": [ {
+      "css": ["bg-only.css"],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "name": "bg-only.css",
+   "version": "1.0",
+   "manifest_version": 2
+}
