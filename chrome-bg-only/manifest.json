@@ -1,0 +1,9 @@
+{
+   "content_scripts": [ {
+      "css": ["custom.css"],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "name": "custom.css",
+   "version": "1.0",
+   "manifest_version": 2
+}
