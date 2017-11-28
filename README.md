@@ -12,11 +12,12 @@ However be aware that a small number of webpages might lose some functionality w
 
 How to install:
 
-Download the **.crx** file.
-Go to **chrome://extensions/**.  
-Check the box for **Developer mode**.  
-Drag the **.crx** file onto the page.  
-Click **Add extension** when prompted.
+~~Download the **.crx** file.~~
+~~Go to **chrome://extensions/**.~~  
+~~Check the box for **Developer mode**.~~  
+~~Drag the **.crx** file onto the page.~~  
+~~Click **Add extension** when prompted.~~
+(The `crx` method seems to be depricated by Chrome.)
 
 Or:  
 Download the entire folder containing a **.css** and a **.json** file.   
