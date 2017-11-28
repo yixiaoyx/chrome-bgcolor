@@ -1,0 +1,9 @@
+{
+   "content_scripts": [ {
+      "css": ["bg-div.css"],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "name": "bg-div.css",
+   "version": "1.0",
+   "manifest_version": 2
+}
