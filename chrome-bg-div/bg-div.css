@@ -5,7 +5,7 @@ div[class*='body'] {background-color: #d7e8db!important;}
 div[class*='content'] {background-color: #d7e8db!important;}
 hr {border-color:cadetblue!important;}
 /*code {background-color:#7FAEB0!important;}*/
-pre {background-color:#7FAEB0!important;}
+pre {background-color:#c2d3ca!important;}
 article, input, textarea {background-color: #d7e8db!important;}
-.textLayer {background:#c5f7ce!important;} /*for canvas*/
+.textLayer {background:#c2d3ca!important;} /*for canvas*/
 #content {background:#d7e8db!important;}
