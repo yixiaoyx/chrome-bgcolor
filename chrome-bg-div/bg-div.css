@@ -1,7 +1,8 @@
 html, body {background-color: #C3E8C8!important;}
 div:not(div img) {background-color: #C3E8C8!important;}
-hr {border-color:cadetblue!important;}
+hr {border-color:rgb(135, 197, 184)!important;}
 /*code {background-color:#7FAEB0!important;}*/
-pre {background-color:#7FAEB0!important;}
-article {background-color:#C2E7E8!important;}
+pre {background-color:rgb(135, 197, 184)!important;}
+article {background-color:#C3E8C8!important;}
 input, textarea {background-color: #C3E8C8!important;}
+#page {background-color: #C3E8C8!important;}
