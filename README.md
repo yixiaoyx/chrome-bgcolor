@@ -20,9 +20,9 @@ There are two versions:
 - Find that folder of your choice and click **Select**.
 
 ### Install from crx
-**Deprecated: installation via crx has been deprecated by Chrome updates. Therefore the crx files in this repository are no longer updated to reflect the newest changes in the extension.**
-- Download the **.crx** file.
-- Go to **chrome://extensions/**.  
-- Check the box for **Developer mode**.  
-- Drag the **.crx** file onto the page.  
-- Click **Add extension** when prompted.
+**Deprecated: installation via crx has been deprecated by Chrome updates. Therefore the crx files in this repository have been removed.**
+- ~~Download the **.crx** file.~~
+- ~~Go to **chrome://extensions/**.~~  
+- ~~Check the box for **Developer mode**.~~  
+- ~~Drag the **.crx** file onto the page.~~
+- ~~Click **Add extension** when prompted.~~
