@@ -1,5 +1,5 @@
-var button_enable_text = 'enable';
-var button_disable_text = 'disable';
+const button_enable_text = 'enable';
+const button_disable_text = 'disable';
 //var css_enabled = false;
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -12,16 +12,19 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     button.addEventListener('click', function() {
-        if (button.innerHTML == button_enable_text) {
+        var text = button.innerHTML;
+        chrome.runtime.sendMessage(text);
+        //chrome.tabs.sendMessage(text);
+        chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+            chrome.tabs.sendMessage(tabs[0].id, text);
+        });
+        console.log("green background "+text+"d");
+        if (text === button_enable_text) {
             button.innerHTML = button_disable_text;
             //css_enabled = true;
-            console.log("green background enabled");
-            chrome.runtime.sendMessage(button_enable_text);
-        } else if (button.innerHTML == button_disable_text) {
+        } else if (text === button_disable_text) {
             button.innerHTML = button_enable_text;
             //css_enabled = false;
-            console.log("green background disabled");
-            chrome.runtime.sendMessage(button_disable_text);
         }
     });
 });

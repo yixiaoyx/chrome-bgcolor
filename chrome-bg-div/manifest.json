@@ -1,18 +1,21 @@
 {
-    //"content_scripts": [ {
+    "content_scripts": [ {
     //   "css": ["bg-div.css"],
-    //   "matches": [ "http://*/*", "https://*/*" ]
-    //} ],
-    "name": "bg-div.css",
+        "matches": [ "http://*/*", "https://*/*" ],
+        "js": ["content.js"],
+        "run_at": "document_start"
+    } ],
+    "name": "bg-div",
     "version": "1.0",
     "manifest_version": 2,
     "browser_action": {
         "default_popup": "popup.html"
     },
     "background": {
-      "scripts": ["background.js"],
-      "persistent": false
+        "scripts": ["background.js"],
+        "persistent": false
     },
+    "web_accessible_resources": ["bg-div.css"],
     "permissions": [
         "background",
         "tabs",
