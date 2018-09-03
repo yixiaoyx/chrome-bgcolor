@@ -1,6 +1,5 @@
 {
     "content_scripts": [ {
-    //   "css": ["bg-div.css"],
         "matches": [ "http://*/*", "https://*/*" ],
         "js": ["content.js"],
         "run_at": "document_start"
@@ -13,7 +12,7 @@
     },
     "background": {
         "scripts": ["background.js"],
-        "persistent": false
+        "persistent": true
     },
     "web_accessible_resources": ["bg-div.css"],
     "permissions": [
