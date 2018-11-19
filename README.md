@@ -1,4 +1,5 @@
 # chrome-bgcolor
+test
 
 Chrome extension that changes bgcolor to a comfortable shade of palegreen: `#C3E8C8`.  
 Created by Yi Xiao.
