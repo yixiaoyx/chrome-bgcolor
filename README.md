@@ -27,4 +27,3 @@ There are two versions:
 - ~~Drag the **.crx** file onto the page.~~
 - ~~Click **Add extension** when prompted.~~
 
-test
