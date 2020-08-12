@@ -26,3 +26,5 @@ There are two versions:
 - ~~Check the box for **Developer mode**.~~  
 - ~~Drag the **.crx** file onto the page.~~
 - ~~Click **Add extension** when prompted.~~
+
+test
